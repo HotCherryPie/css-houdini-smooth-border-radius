@@ -3,6 +3,7 @@ class SmoothBorderRadiusWorklet {
     return ['--border-radius-aspect', '--border-radius'];
   }
 
+  // https://github.com/w3c/css-houdini-drafts/issues/219
   // static get inputArguments() {
   //   return ['*']; // precision
   // }
